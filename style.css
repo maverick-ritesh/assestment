@@ -1,0 +1,399 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*top contents*/
+
+/*head title container*/
+.header{
+		text-align:center;
+		padding:5%;
+		height: 0.2%;
+      }
+
+/*baseline .footer*/
+.footer{
+	text-align: center;
+	background:#07162d;
+	color:white;
+	font-size: 20px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	height:8%; 
+}
+
+/*.navigation bar style*/
+.nav{
+	position: fixed;
+	width: 100%;
+	box-shadow: 2px 2px 7px #07162d;
+}
+
+/*.nav bar list style*/
+.nav ul{
+		margin:0;
+		display:flex;
+		justify-content:space-around;
+		background-color: #07162d;
+}
+
+/*each list line format*/
+.nav ul li{
+	list-style:none;
+	margin:0.5%;
+	padding:1%;
+
+}
+
+/*list line text style*/
+.nav ul li a{
+	color:white;
+	text-decoration: none;
+		/*animation: */
+	-webkit-transition: width .9s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	transition: .9s;
+}
+
+/*animation design */
+.nav ul li a:hover{
+	text-decoration:underline;
+	color:grey;
+	font-size:30px;
+
+}
+
+/*main content & body holder */
+.section{
+	display:flex;
+}
+
+/*end of top contents*/
+
+/*main body content holder*/
+.main{
+	width:71%;text-align: left;padding:2%;}
+
+/*langing page title*/
+.main .title{
+	color: white;
+	font-weight: bold;
+	font-size:40px;
+}	
+
+/*lading page sub title type 1*/
+.main .sub1{
+	color: white;
+	font-weight: bold;
+	font-size:25px;
+}
+
+/*landing page sub title type 2*/
+.main .sub2{
+	color: #ed5915;
+	font-weight: bold;
+	font-size:25px;
+}
+
+
+/*landing page main container*/
+.landing_page_cont{
+	padding-left: 10%;
+	width: 40%;
+}
+
+/*main contents buttons*/
+.main button{
+	border-radius: 5px;
+	height: 6%;
+	width: 17%;
+	border-color: #ed5915;
+	font-size: 20px;
+		/*animation: */
+	-webkit-transition: width .5s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	transition: .5s;
+}
+
+.main button:hover{
+	border-radius: 20px;
+	height: 4%;
+	width: 15%;
+
+}
+
+
+/*button type 1 design*/
+.main .btn1{
+	background-color:#ed5915;
+	color:white;
+}
+/*button type 2 design*/
+.main .btn2{
+	color:#ed5915;
+}
+/*button type 1 design on hover*/
+.main .btn1:hover{
+	cursor: default;
+	background-color:#dd5313;
+
+}
+/*button type 2 design on hover*/
+.main .btn2:hover{
+	cursor: default;
+	background-color:#e5e3e3;
+
+}
+
+
+.main table{
+	padding-left: 20%;
+}
+
+.main table th img{
+	width: 50%;
+	height: 50%;
+	/*animation: */
+	-webkit-transition: width .5s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	transition: .5s;
+}
+
+.main table th img:hover{
+	width: 56%;
+	height: 56%;
+	cursor:default;
+}
+
+/*body side bar content holder*/
+.sidebar{
+	background:#3b393a;width:21%;
+	text-align: center;
+	padding:2%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-bottom: 5%;
+}
+.sidebar a , .sidebar h3 , .sidebar h5{
+  color:white;
+}
+
+.header a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:30px;
+}
+
+/*cv table format*/
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th{
+	width:40%;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr td:hover {background-color: #ddd;}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*end of table format*/
+
+.info_icon{
+	height:auto;
+	width:20%;
+}
+
+.prof_img{
+	border:3px solid white;
+	border-radius:50%;
+	height:auto; width:79%;
+	-webkit-transition: width 1.4s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	transition: width 1.4s;
+}
+
+.prof_img:hover{
+	width: 90%;
+}
+
+.sidebar h5{
+		font-size:20px;
+}
+
+.text_field {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	padding: 14px 20px;
+    background-color: white;
+    background-position: 10px 10px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.button{
+	width: 20%;
+	height:5%;
+}
+
+.text_field:focus {
+    width: 50%;
+}
+
+.contact_form{
+	padding-left:30%;
+	text-align: center;
+	align-content: center;
+}
+
+/*map format*/
+.mapouter{
+	overflow:hidden;
+	height:200px;
+	width:653px;
+	padding-left:34%;
+	padding-bottom:30%;
+}
+.gmap_canvas {
+		background:none!important;
+		height:200px;
+		width:653px;
+	}
+/*end of map format*/
+
+
+
+.report_page{
+	padding-left:40%;
+	text-align: center;
+	align-content: center;
+	/*border: 1px solid black;*/
+}
+
+.report_page span{
+	font-size: 10px;
+	padding-right:60%;
+	color:red;
+
+}
+
+.report_page h2{
+	padding-right:60%;
+	font-size: 20px;
+}
+
+
+.report_page .contents{
+	padding-bottom: 12%;	
+	padding-right: 25%;
+	text-align: left;
+}
+
+.report_page .contents table{
+	word-spacing: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.report_page .contents .container{
+	padding-bottom: 4%;
+}
+
+.report_page .contents table th, .report_page .contents table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.report_page a{
+	text-decoration: none;
+	color:#000;
+	font-size: 16px;
+		/*animation: */
+	-webkit-transition: width .9s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	transition: .9s;
+}
+
+.report_page ul{
+	padding-right:80%;
+	list-style: somali;
+}
+
+
+.skt_img{
+	width: 100%;
+}
+
+.report_page ul li{
+
+	padding-right:20%;
+}
+
+.report_page a:hover{
+	text-decoration: underline;
+	color:grey;
+	font-size: 18px;
+	padding-right:25%;
+}
+
+	/*for responsive mobile view*/
+@media screen and (max-width:1000px){
+	.nav{
+		position: relative;
+		/*visibility: hidden;*/
+	}
+	.nav ul{
+		flex-direction:column;
+	}
+	.nav ul li{
+		width:94%;
+		margin:1%;
+		padding:1%;
+	}
+	.section{
+		flex-direction: column;
+	}
+	.main{
+		width:96%;
+		order:1;
+	}
+	.sidebar{
+		width:96%;
+		order:1;
+		padding-bottom: 15%;
+	}
+.main button{
+	height: 4%;
+	width: 45%;
+}
+
+}
+/*end of responsive design*/
